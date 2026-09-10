@@ -3,7 +3,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        String csvFilePath = (args.length > 0) ? args[0] : "C:\\Users\\SAKTHIMICRO\\IdeaProjects\\Sales_Report\\src\\sales.csv";
+        String csvFilePath = (args.length > 0) ? args[0] : "src\\sales.csv";
         String outputMethod = (args.length > 1) ? args[1] : "console";
         String outputFilePath = (args.length > 2) ? args[2] : "report.txt";
 
